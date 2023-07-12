@@ -1,0 +1,10 @@
+releases:
+  - name: datadog
+    namespace: datadog
+    labels:
+      app: datadog
+    chart: .
+    values:
+      - values.yaml
+    secrets:
+      - secrets.yaml
