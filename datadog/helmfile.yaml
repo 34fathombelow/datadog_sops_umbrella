@@ -8,7 +8,7 @@ releases:
     labels:
       app: datadog
     chart: datadog/datadog
-    version: 3.33.2
+    version: 3.33.0
     values:
       - values.yaml
     secrets:
