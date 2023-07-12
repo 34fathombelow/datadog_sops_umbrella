@@ -1,9 +1,14 @@
+repositories:
+  - name: datadog
+    url: https://helm.datadoghq.com
+
 releases:
   - name: datadog
     namespace: datadog
     labels:
       app: datadog
-    chart: .
+    chart: datadog/datadog
+    version: 3.33.2
     values:
       - values.yaml
     secrets:
